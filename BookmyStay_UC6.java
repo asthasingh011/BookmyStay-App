@@ -140,11 +140,10 @@ public class BookmyStay_UC6{
 
         // Initialize booking queue
         BookingRequestQueue bookingQueue = new BookingRequestQueue();
-        bookingQueue.addRequest(new Reservation("Alice", "Single Room"));
-        bookingQueue.addRequest(new Reservation("Bob", "Double Room"));
-        bookingQueue.addRequest(new Reservation("Charlie", "Suite Room"));
-        bookingQueue.addRequest(new Reservation("Diana", "Single Room"));
-        bookingQueue.addRequest(new Reservation("Ethan", "Single Room"));
+        bookingQueue.addRequest(new Reservation("Abhi", "Single 1"));
+        bookingQueue.addRequest(new Reservation("Subha", "Single 2"));
+        bookingQueue.addRequest(new Reservation("Vanmatha", "Suite 1"));
+
 
         // Allocate rooms
         RoomAllocationService allocationService = new RoomAllocationService(inventory);
