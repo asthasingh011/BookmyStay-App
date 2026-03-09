@@ -84,10 +84,10 @@ public class BookmyStay_UC5{
         BookingRequestQueue bookingQueue = new BookingRequestQueue();
 
         // Simulate booking requests
-        bookingQueue.addRequest(new Reservation("Alice", "Single Room"));
-        bookingQueue.addRequest(new Reservation("Bob", "Double Room"));
-        bookingQueue.addRequest(new Reservation("Charlie", "Suite Room"));
-        bookingQueue.addRequest(new Reservation("Diana", "Single Room"));
+        bookingQueue.addRequest(new Reservation("Abhi", "Single Room"));
+        bookingQueue.addRequest(new Reservation("Subha", "Double Room"));
+        bookingQueue.addRequest(new Reservation("Vanmathi", "Suite Room"));
+
 
         // Show queue before processing
         bookingQueue.showQueuedRequests();
